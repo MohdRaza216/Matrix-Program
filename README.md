@@ -1,12 +1,111 @@
-# React + Vite
+# 🔲 Matrix Grid Animation – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun 3x3 interactive matrix grid built using **React** and **Vite**.  
+Click on any box to turn it green. After 9 clicks, all boxes animate to **orange** in the order of your clicks.
 
-Currently, two official plugins are available:
+🔗 **[Live Demo](https://MohdRaza216.github.io/Matrix-Program)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔳 3x3 Grid UI using CSS Grid
+- 🟩 Turn boxes green on click
+- 🟠 Animate all to orange after the 9th click in original order
+- ⚛️ Built with React + Vite
+- 🚀 Deployed on GitHub Pages
+
+---
+
+## 📦 Tech Stack
+
+- React (with hooks)
+- Vite (super-fast build tool)
+- CSS Grid
+- GitHub Pages (for deployment)
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/MohdRaza216/Matrix-Program.git
+   cd Matrix-Program
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🌐 Deployment
+
+This project is deployed to GitHub Pages using the `gh-pages` package.
+
+```bash
+# Set homepage in package.json
+"homepage": "https://MohdRaza216.github.io/Matrix-Program",
+
+# Build the app
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+> Vite builds go into the `/dist` folder, not `/build`.
+
+---
+
+## 📁 Project Structure
+
+```
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── vite.config.js
+├── package.json
+├── 404.html
+└── README.md
+```
+
+---
+
+## 💡 Learning Goals
+
+- React state and `useState`
+- Handling DOM events (`onClick`)
+- Rendering dynamic styles
+- Delayed color transitions using `setTimeout`
+- Deploying SPAs on GitHub Pages with Vite
+
+---
+
+## 🙌 Acknowledgments
+
+Created by [Mohd Raza](https://github.com/MohdRaza216)  
+Deployed with ❤️ using GitHub Pages.
+
+---
+
+## 🪪 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
